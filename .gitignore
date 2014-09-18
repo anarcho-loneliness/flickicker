@@ -1,0 +1,6 @@
+# Sourcemod Includes
+/include/**
+
+# Compiler
+*.exe
+compile.dat
