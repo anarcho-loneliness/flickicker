@@ -1,7 +1,7 @@
 #include <sourcemod>
 #include <sdktools>
 
-#define PLUGIN_VERSION "0.0.2"
+#define PLUGIN_VERSION "0.0.3"
 
 new Handle:gcvar_fkDuration = INVALID_HANDLE;
 
@@ -57,7 +57,7 @@ public Action:Flickban(caller, args) {
         return Plugin_Handled;
     }
 
-    BanClient(target, GetConVarInt(gcvar_fkDuration), BANFLAG_AUTHID, "Flickban", "You have been permanently banned", "Flickban");
+    BanClient(target, 0, BANFLAG_AUTHID, "Flickban", "You have been permanently banned", "Flickban");
 
     return Plugin_Handled;
 }

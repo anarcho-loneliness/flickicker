@@ -1,7 +1,7 @@
 flickicker
 ==========
 
-Silently kicks (or bans) the player under your crosshair. Don't miss!
+Instantly kicks (or bans) the player under your crosshair. Don't miss!
 
 ###Installation
 Install `flickicker.smx` to `tf/addons/sourcemod/plugins/`
